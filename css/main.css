@@ -95,19 +95,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header {
+    text-align: center;
+}
 
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
 
+.container-1 div {
+    border:1px #cccccc solid;
+    padding:10px;
+    text-align: center;
+}
 
+.postOfTheDay {
+    flex:1;
+}
+.oldPost-1 {
+    flex:1;
+}
 
+.oldPost-2 {
+    flex:1;
+}
 
-
-
-
-
-
-
-
+.oldPost-3 {
+    flex:1;
+}
 
 
 
