@@ -96,12 +96,47 @@ textarea {
    ========================================================================== */
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    width:100%;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    border:1px solid black;
+    font-weight:bold;
 }
 
 .navBar {
-    display: flex;
-    justify-content: space-between;
+    background-color:gold;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.navBar li {
+    float: left;
+    padding:3px;
+    /*height:5px;*/
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    padding:15px;
+    font-weight:bold;
+}
+
+.navBar li a:hover {
+    background-color: black;
 }
 
 .container-1 {
